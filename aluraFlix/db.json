@@ -1,0 +1,45 @@
+{ "videos":[
+    {
+        "id": 1,
+        "titulo": "Como utilizar el Display block, inline, inline-block",
+        "categoria": "frontend",
+        "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Jean.png",
+        "video": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+        "descripcion": "Video1"
+    },
+    {
+        "id": 2,
+        "titulo": "Productividad en el trabajo remoto",
+        "categoria": "backend",
+        "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Gabi.png",
+        "video": "https://www.youtube.com/embed/AULPtYo25Lw?si=UGdKX1NSrEcQ0jfn",
+        "descripcion": "Video2"
+
+    },
+    {
+        "id": 3,
+        "titulo": "¿Cuáles son las principales áreas de la programación?",
+        "categoria": "innovacion",
+        "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Genesis.png",
+        "video": "https://www.youtube.com/embed/03cxUlwLVt4?si=zVCUQNO-eS2RZQTO",
+        "descripcion": "Video3"
+
+    },
+    {
+        "id": 4,
+        "titulo": "Detección de intruso con IA",
+        "categoria": "frontend",
+        "imagen": "https://caelum-online-public.s3.amazonaws.com/ESP-2052+-++React%3A+practicando+React+con+Js/282x425+-+Ale.png",
+        "video": "https://www.youtube.com/embed/5T_Q_NtNLZE?si=M7D0JeagaKqsoaFs",
+        "descripcion": "Video4"
+    },
+    {
+        "id":"5",
+        "titulo":"Primera",
+        "categoria": "frontend",
+        "imagen":"https://www.cats.org.uk/media/13136/220325case013.jpg?width=500&height=333.49609375",
+        "video":"https://www.youtube.com/watch?v=tgQg5UI1do8",
+        "descripcion": "Video5"
+    }
+]
+}

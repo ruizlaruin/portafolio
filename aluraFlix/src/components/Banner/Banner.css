@@ -1,0 +1,93 @@
+.background-section {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  }
+  
+  .background-section::before {
+    content: "";
+    background-image: url('/img/bannerBackground.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2; /* Ensure it stays behind the overlay */
+  }
+  
+  .background-section::after {
+    content: "";
+    background-color: black; /* Black overlay */
+    opacity: 0.7; /* Adjust the opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Ensure it stays behind the content but above the background image */
+  }
+  
+  .card, .card-footer {
+    flex: 1 1 50%; /* Take 50% of the view width */
+    max-width: 50%; /* Ensure max width is 50% */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* max-width: 900px; */
+    margin: auto;
+  }
+
+  .card-body, .card-footer {
+    width: 100%;
+  }
+
+.button {
+  width: 180px;
+  border-radius: 10px;
+  background-color: #4e8df5;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.card-body {
+    padding: 20px;
+  }
+
+.card-body h2{
+    color: #ffffff;
+}
+
+.card-body p {
+  margin: 10px 0 0 0;
+  color: #ffffff;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px; /* Ensure max width is 400px */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 15px;
+  box-shadow: 0px 0px 17px 8px #6bd1ff inset;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 800px) {
+  .card, .card-footer {
+    flex: 1 1 100%; /* Take 100% of the view width */
+    max-width: 100%; /* Ensure max width is 100% */
+  }
+}

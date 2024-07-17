@@ -1,0 +1,54 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #262626;
+  border-bottom: 4px solid #2271D1;
+}
+
+.logo {
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.btn {
+  height: 54px;
+  width: 180px;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 10px 20px;
+  border: solid;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #000;
+  color: #2271d1;
+  box-shadow: 0px 0px 12px 4px #2271d1 inset;
+}
+
+.btn-primary:hover {
+  background-color: #163c81;
+  border: 2px solid #2271d1;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+}
+
+.btn-secondary:hover {
+  background-color: #f5f5f5;
+  color: #212121;
+}

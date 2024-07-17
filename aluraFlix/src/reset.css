@@ -1,0 +1,59 @@
+/* reset.css */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote,
+dl, dd, ol, ul,
+figure, hr, pre,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default table spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default form styles */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+/* Set a default font-family and line-height */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Remove default anchor tag styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset images and media */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
